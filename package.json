@@ -1,0 +1,17 @@
+{
+  "name": "demo-bullmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/f4b1ux/demo-bullmq.git",
+  "author": "Fabio Fioramonti <f.fioramonti@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "bullmq": "^5.8.6",
+    "ioredis": "^5.4.1"
+  },
+  "scripts": {
+    "start:producer": "node src/producer.js",
+    "start:consumer": "node src/consumer.js"
+  }
+}
